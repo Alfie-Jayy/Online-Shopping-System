@@ -8,7 +8,7 @@
             <div class="mb-4"><a href="{{ route('user#shop') }}"><i class=" text-black fa-solid fa-arrow-left-long fa-lg"></i></a></div>
 
             <div class="col-lg-5 mb-30">
-                <img class="w-100 shadow-lg" src="{{ asset('storage/' . $pizza->image) }}" alt="Image">
+                <img class=" w-100 shadow-lg" src="{{ asset('storage/' . $pizza->image) }}" alt="Image">
             </div>
 
             <div class="col-lg-7 h-auto mb-30">
