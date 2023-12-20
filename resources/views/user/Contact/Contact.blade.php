@@ -28,14 +28,14 @@
                     <div class="row my-3">
                         <div class="col">
                             <label for="" class="form-label">Your Name</label>
-                            <input name="username" type="text" class="form-control">
+                            <input name="username" type="text" class="form-control" required>
                         </div>
                         <div class="col">
                             <label for="" class="form-label">Email</label>
-                            <input name="email" type="email" class="form-control">
+                            <input name="email" type="email" class="form-control" required>
                         </div>
                     </div>
-                    <textarea name="message" class="form-control" rows="7" placeholder="Enter your message..."></textarea>
+                    <textarea name="message" class="form-control" rows="7" placeholder="Enter your message..." required></textarea>
                     <div class="text-end">
                         <button class="btn btn-secondary mt-3" type="submit">Send</button>
                     </div>
