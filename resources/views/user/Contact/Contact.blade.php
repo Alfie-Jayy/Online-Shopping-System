@@ -7,7 +7,7 @@
             <div class="col-5 offset-7">
                 @if (session('successMsg'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <span> {{session('successMsg')}} </span>
+                        <span> {{ session('successMsg') }} </span>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endif
@@ -23,7 +23,7 @@
                     <div><i class="fa-regular fa-2xl fa-paper-plane" style="color: #127075;"></i></div>
                 </div>
 
-                <form action="{{route('user#contactSubmit')}}" method="post">
+                <form action="{{ route('user#contactSubmit') }}" method="post">
                     @csrf
                     <div class="row my-3">
                         <div class="col">
@@ -40,7 +40,6 @@
                         <button class="btn btn-secondary mt-3" type="submit">Send</button>
                     </div>
                 </form>
-
 
             </div>
 
